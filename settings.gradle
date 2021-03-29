@@ -1,0 +1,4 @@
+include ':export_news'
+include ':news'
+include ':app'
+rootProject.name = "ComponentNews"
