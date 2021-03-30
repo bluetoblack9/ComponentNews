@@ -2,7 +2,9 @@ package com.blue.news;
 
 import android.content.Context;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.blue.export_news.bean.NewsInfo;
+import com.blue.export_news.router.NewsRouterTable;
 import com.blue.export_news.service.INewsService;
 
 /**
@@ -10,6 +12,7 @@ import com.blue.export_news.service.INewsService;
  * (*^▽^*)
  * 描述:
  */
+@Route(path = NewsRouterTable.PATH_SERVICE_NEWS)
 public class NewsServiceImpl implements INewsService {
 
     @Override
