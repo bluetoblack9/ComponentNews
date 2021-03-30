@@ -17,7 +17,7 @@ public class NewsServiceUtil {
      * @param param1
      * @param param2
      */
-    public static void navigateCartPage(String param1, String param2){
+    public static void navigateNewsPage(String param1, String param2){
         ARouter.getInstance()
                 .build(NewsRouterTable.PATH_PAGE_NEWS)
                 .withString("key1",param1)
@@ -38,7 +38,7 @@ public class NewsServiceUtil {
      * 获取新闻页面的新闻数量
      * @return
      */
-    public static NewsInfo getCartProductCount(){
+    public static NewsInfo getNewsProductCount(){
         return getService().getProductCountInNews();
     }
 

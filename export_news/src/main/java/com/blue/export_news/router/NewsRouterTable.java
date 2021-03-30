@@ -10,7 +10,7 @@ public interface NewsRouterTable {
     /**
      * 新闻页面
      */
-    String PATH_PAGE_NEWS = "/news/NewsActivity";
+    String PATH_PAGE_NEWS = "/news/NewActivity";
 
     /**
      * 新闻服务
