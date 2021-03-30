@@ -16,4 +16,9 @@ public interface NewsRouterTable {
      * 新闻服务
      */
     String PATH_SERVICE_NEWS = "/news/service";
+
+    /**
+     * 新闻Fragment
+     */
+    String PATH_FRAGMENT_NEWS = "/news/NewFragment";
 }
