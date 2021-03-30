@@ -7,13 +7,17 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
+import com.blue.export_news.router.NewsRouterTable;
+
 /**
  * Created by blue on 2021/03/31.
  * (*^▽^*)
  * 描述:
  */
-public class NewsFragment extends Fragment {
-    public NewsFragment() {
+@Route(path = NewsRouterTable.PATH_FRAGMENT_NEWS)
+public class NewFragment extends Fragment {
+    public NewFragment() {
     }
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="this_is_news_fragment">this is news_fragment</string>
+</resources>
